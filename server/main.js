@@ -47,7 +47,7 @@ async function scrapeArticleText(url) {
 }
 
 scrapeKpopNews();
-setInterval(scrapeArticleText,10000*60*60*15)
+setInterval(scrapeArticleText,10000*60*60*5)
 
 const app = express();
 app.use(cors()); // Allow requests from your React Native app
